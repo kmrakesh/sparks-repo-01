@@ -57,7 +57,8 @@ public class CalculatorTest {
 		boolean result = calculator.equalIntegers(20, 20);
 		assertTrue(result);
 	}
-
+	
+	@Ignore
 	@Test
 	public void testSubstraction() {
 		int result = 10 - 3;
